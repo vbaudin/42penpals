@@ -27,7 +27,7 @@ gem 'bootstrap', '~> 4.0.0'
 gem 'high_voltage'
 gem 'jquery-rails'
 gem 'omniauth'
-gem 'omniauth-github'
+gem 'omniauth-marvin'
 group :development do
   gem 'better_errors'
   gem 'rails_layout'
