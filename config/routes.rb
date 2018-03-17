@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :classifieds
   resources :users
   root to: 'visitors#index'
   get '/auth/:provider/callback' => 'sessions#create'
