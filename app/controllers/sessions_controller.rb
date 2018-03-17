@@ -1,7 +1,7 @@
 class SessionsController < ApplicationController
 
   def new
-    redirect_to '/auth/github'
+    redirect_to '/auth/marvin'
   end
 
   def create
